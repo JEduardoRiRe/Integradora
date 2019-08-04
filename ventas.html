@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="blue.ico">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">﻿
+	<title>Ventas - Conker</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="js/jquery-3.4.1.min.js"></script>
+ 	<script src="js/popper.min.js"></script>
+ 	<script src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<button style="float: right;">Cerrar sesion</button>
+	<div class="container">
+		<div class="row">
+			<div class="col-6 border border-secondary rounded">
+				<label style="font-size: 25px">Venta</label>
+				<form>
+					<br>
+					<div class="form-group row">
+						<label class="col-sm-2 col-form-label">Artículo</label>
+						<div class="col-sm-5">
+							<input type="text" id="inputArticulo" class="rounded">
+						</div>
+					</div>
+					<div class="form-group row">
+						<label class="col-sm-2 col-form-label">Cantidad</label>
+						<div class="col-sm-5">
+							<input type="text" id="inputCantidad" class="rounded">
+						</div>
+					</div>
+					<div class="form-group row">
+						<div class="col-sm-5">
+							<button class="btn btn-outline-secondary btn-sm">Agregar</button>
+						</div>
+					</div>
+				</form>
+				<label style="font-size: 50px">Total:</label>
+				<br>
+				<br>
+				<br>
+				<button class="btn btn-outline-secondary btn-sm">Terminar venta</button>
+				<br>
+			</div>
+			<div class="col-6 border border-secondary rounded">
+				<label style="font-size: 25px">Buscar Artículo</label>
+				<form>
+					<br>
+					<div class="form-group row">
+						<div class="col-sm-10">
+							<input type="text" id="inputBuscar" placeholder="Artículo" class="rounded">
+							<button class="btn btn-outline-secondary mb-1 btn-sm">Buscar</button>
+						</div>
+					</div>
+					<div class="form-group">
+						<label>Encontrado:</label>
+						<fieldset disabled>
+						<textarea class="form-control" id="textarea1"></textarea>
+						</fieldset>
+						<button class="btn btn-outline-secondary btn-sm">Hecho</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
