@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="blue.ico">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">﻿
+	<title>Registro - Conker</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="js/jquery-3.4.1.min.js"></script>
+ 	<script src="js/popper.min.js"></script>
+ 	<script src="js/bootstrap.min.js"></script></head>
+<body style="background-color: grey">
+	<style type="text/css">
+		#f1{
+			margin-top: 100px;
+		}
+	</style>
+	<div class="container">
+		<div class="row justify-content-center" id="f1">
+			<div class="col-6 border border-secondary rounded">
+				<br>
+				<form method="post" action="controlador/insertar.php">
+					
+					<div class="form-group row justify-content-center">
+						<label class="col-sm-3 col-form-label">Nombre</label>
+						<div class="col-sm-7">
+							<input type="text" class="rounded" name="Nombre">
+						</div>
+					</div>
+
+					<div class="form-group row justify-content-center">
+						<label class="col-sm-3 col-form-label">Telefono</label>
+						<div class="col-sm-7">
+							<input type="text" class="rounded" name="Telefono">
+						</div>
+					</div>
+
+					<div class="form-group row">
+				    	<div class="col-sm-7">
+				    		<td>&nbsp;</td>
+				    		<td><input type="submit" value="Registrar Proveedor"></td>
+				    	</div>
+				    </div>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
